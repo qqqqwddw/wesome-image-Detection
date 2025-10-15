@@ -42,16 +42,16 @@
 
 ##### **1. 频率域伪影 (Frequency-Domain Artifacts)**
 *   **HFF (2021, CVPR):** 证明利用多尺度高频噪声可以提升泛化能力。 ([实现](https://github.com/crywang/face-forgery-detection))
-*   **SPSL (2021, CVPR):** 首次利用相位谱并结合浅层网络来检测伪造。
-*   **F³-Net (2020, ECCV):** 设计频率感知模块，有效挖掘频域线索，尤其在低质量图像上效果显著。
+*   **SPSL (2021, CVPR):** 首次利用相位谱并结合浅层网络来检测伪造。([论文]([https://github.com/crywang/face-forgery-detection](https://openaccess.thecvf.com/content/CVPR2021/papers/Liu_Spatial-Phase_Shallow_Learning_Rethinking_Face_Forgery_Detection_in_Frequency_Domain_CVPR_2021_paper.pdf)))
+*   **F³-Net (2020, ECCV):** 设计频率感知模块，有效挖掘频域线索，尤其在低质量图像上效果显著。([论文](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123570086.pdf)))
 *   **Watch Your Up-Convolution (2020, CVPR):** 首次揭示基于上采样的GAN会产生明显的频谱失真。 ([代码](https://github.com/cc-hpc-itwm/UpConv))
 *   **Wavelet-packets (2022, Machine Learning):** 首次将多尺度小波包变换用于合成图像分析。 ([代码](https://github.com/v0lta/PyTorch-Wavelet-Toolbox))
 *   **D4 (2024, WACV):** 基于频率域特征解耦的离散集成模型，提升对抗鲁棒性。 ([代码](https://github.com/nmangaokar/wacv_24_d4))
-*   **FDFL (2021, ArXiv):** 结合频率感知和单中心损失，学习更有区分度的伪造特征。
-*   **FreqDebias (2024, ArXiv):** 设计Fo-Mixup频率域增强和双一致性正则化来解决“频谱偏见”问题。
+*   **FDFL (2021, CVPR):** 结合频率感知和单中心损失，学习更有区分度的伪造特征。([论文]([https://github.com/crywang/face-forgery-detection](https://openaccess.thecvf.com/content/CVPR2021/papers/Li_Frequency-Aware_Discriminative_Feature_Learning_Supervised_by_Single-Center_Loss_for_Face_CVPR_2021_paper.pdf)))
+*   **FreqDebias (2025, CVPR):** 设计Fo-Mixup频率域增强和双一致性正则化来解决“频谱偏见”问题。([论文]([https://github.com/crywang/face-forgery-detection](https://openaccess.thecvf.com/content/CVPR2025/papers/Kashiani_FreqDebias_Towards_Generalizable_Deepfake_Detection_via_Consistency-Driven_Frequency_Debiasing_CVPR_2025_paper.pdf)))
 
 ##### **2. 混合边界与合成伪影 (Blending Boundary & Synthesis Artifacts)**
-*   **Face X-ray (2020, CVPR):** 将伪造检测问题转化为寻找图像中的“混合边界”。
+*   **Face X-ray (2020, CVPR):** 将伪造检测问题转化为寻找图像中的“混合边界”。([论文]([https://github.com/Gao-ning/TTNet-Trail-Tracing-Network](https://openaccess.thecvf.com/content_CVPR_2020/papers/Li_Face_X-Ray_for_More_General_Face_Forgery_Detection_CVPR_2020_paper.pdf)))
 *   **TTNet (2024, Pattern Recognition):** 提出人脸关键点引导的踪迹增强模块以提升泛化性。 ([代码](https://github.com/Gao-ning/TTNet-Trail-Tracing-Network))
 *   **SBI (2022, CVPR):** 通过单张图像自混合生成高质量伪造样本，提升模型对未知伪造的泛化能力。 ([代码](https://github.com/mapooon/SelfBlendedImages))
 *   **FSBI (2022, IVC):** 在频域增强的自混合图像数据，进一步提升泛化。 ([代码](https://github.com/gufranSabri/FSBI))
