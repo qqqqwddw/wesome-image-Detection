@@ -47,7 +47,7 @@
 *   **Watch Your Up-Convolution (2020, CVPR):** 首次揭示基于上采样的GAN会产生明显的频谱失真。 ([代码](https://github.com/cc-hpc-itwm/UpConv))
 *   **Wavelet-packets (2022, Machine Learning):** 首次将多尺度小波包变换用于合成图像分析。 ([代码](https://github.com/v0lta/PyTorch-Wavelet-Toolbox))
 *   **D4 (2024, WACV):** 基于频率域特征解耦的离散集成模型，提升对抗鲁棒性。 ([代码](https://github.com/nmangaokar/wacv_24_d4))
-*   **FDFL (2021, CVPR):** 结合频率感知和单中心损失，学习更有区分度的伪造特征。([论文]([https://github.com/crywang/face-forgery-detection](https://openaccess.thecvf.com/content/CVPR2021/papers/Li_Frequency-Aware_Discriminative_Feature_Learning_Supervised_by_Single-Center_Loss_for_Face_CVPR_2021_paper.pdf)))
+*   **FDFL (2021, CVPR):** 结合频率感知和单中心损失，学习更有区分度的伪造特征。([论文]([https://github.com/crywang/face-forgery-detection](https://openaccess.thecvf.com/content/CVPR2021/papers/Li_Frequency-Aware_Discriminative_Feature_Learning_Supervised_by_Single-Center_Loss_for_Face_CVPR_2021_paper.pdf))
 *   **FreqDebias (2025, CVPR):** 设计Fo-Mixup频率域增强和双一致性正则化来解决“频谱偏见”问题。([论文]([https://github.com/crywang/face-forgery-detection](https://openaccess.thecvf.com/content/CVPR2025/papers/Kashiani_FreqDebias_Towards_Generalizable_Deepfake_Detection_via_Consistency-Driven_Frequency_Debiasing_CVPR_2025_paper.pdf)))
 
 ##### **2. 混合边界与合成伪影 (Blending Boundary & Synthesis Artifacts)**
